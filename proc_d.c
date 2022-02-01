@@ -54,4 +54,5 @@ int main (int argc, char* argv[]){
         sembuff[0].sem_flg = 0;
         semop(atoi(argv[2]),sembuff,1);
     }
+    
 }
