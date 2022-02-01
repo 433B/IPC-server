@@ -108,7 +108,6 @@ int main(int argc, char* argv[]) {
         exit(EXIT_FAILURE);
     }
 
-
     //Inicialization semafor
     res = semctl(sem1, 0, SETVAL, 1);
     if (res == -1) {
