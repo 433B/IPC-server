@@ -48,6 +48,7 @@ int main(int argc, char* argv[]) {
 
     kill(getppid(), SIGUSR1);
     int i = 0;
+   
     for (i = 0; i < 10; i++) {
         recv(sockfd, buff, 200, 0);
         write(outfile, buff, strlen(buff));
