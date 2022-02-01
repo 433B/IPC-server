@@ -41,6 +41,7 @@ int main (int argc, char* argv[]) {
             a++;
         } while (letters[a - 1] != '\n');
 
+        
         letters[a - 1] = '\0';
         strcpy(buffer, letters);
         a = 0;
